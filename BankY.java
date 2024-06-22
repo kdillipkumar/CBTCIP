@@ -1,4 +1,6 @@
 package tech;
+//Creating the database table named as SYSBANK with columns like account_number(AACNO), user_name(NAME),balance(BALANCE),account_type(saving/current(ACCTYPE))
+//CREATE TABLE SYSBANK(ACCNO NUMBER,NAME VARCHAR2(20), BALANCE NUMBER, ACCTYPE VARCHAR2(10));
 import java.util.*;
 import java.sql.*;
 public class BankY  {
